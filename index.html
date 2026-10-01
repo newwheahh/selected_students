@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Successful Students | Dyuti Institute</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+
+                <div class="logo-icon">
+                    D
+                </div>
+
+                <div class="logo-text">
+                    <h2>Dyuti Institute</h2>
+                    <span>JENPAS(UG) • ANM • GNM</span>
+                </div>
+
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#students">Our Stars</a>
+                </li>
+
+                <li>
+                    <a href="#sessions">Sessions</a>
+                </li>
+
+                <li>
+                    <a href="https://dyuti-institute.vercel.app/">Contact</a>
+                </li>
+
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                🏆 OUR SUCCESS STORIES
+            </div>
+
+            <h1>
+                Meet Our <span>Successful Students</span>
+            </h1>
+
+            <p>
+                Every achievement tells a story of dedication, hard work and the right guidance.
+                Explore the success stories of Dyuti Institute students across different sessions.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- STATS -->
+    <section class="stats">
+
+        <div class="stat-card">
+
+            <div class="icon">🎓</div>
+
+            <h3 id="totalStudents">0</h3>
+
+            <p>Successful Students</p>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <div class="icon">🏆</div>
+
+            <h3>4+</h3>
+
+            <p>Successful Sessions</p>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <div class="icon">⭐</div>
+
+            <h3>75+</h3>
+
+            <p>Achievements</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- STUDENTS -->
+    <main class="container" id="students">
+
+        <div class="section-heading">
+
+            <h2>Our Success Stories</h2>
+
+            <p>
+                Select a session to explore our successful students
+            </p>
+
+        </div>
+
+
+        <!-- FILTER -->
+        <div class="controls" id="sessions">
+
+            <div class="sessions">
+
+                <button class="session-btn active" data-session="all">
+                    All Sessions
+                </button>
+
+                <button class="session-btn" data-session="2025-26">
+                    2026
+                </button>
+
+                <button class="session-btn" data-session="2024-25">
+                    2025
+                </button>
+
+                <button class="session-btn" data-session="2023-24">
+                    2024
+                </button>
+
+                <button class="session-btn" data-session="2022-23">
+                    2023
+                </button>
+
+            </div>
+
+
+            <div class="search-box">
+
+                <span class="search-icon">
+                    🔍
+                </span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search student..."
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- STUDENT CARDS -->
+        <div
+            class="student-grid"
+            id="studentGrid"
+        ></div>
+
+
+        <!-- EMPTY STATE -->
+        <div
+            class="empty"
+            id="emptyState"
+        >
+
+            <div class="emoji">
+                🔎
+            </div>
+
+            <h3>
+                No students found
+            </h3>
+
+            <p>
+                Try another session or search term.
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <div class="footer-logo">
+            Dyuti Institute
+        </div>
+
+        <p>
+            JENPAS(UG) • ANM & GNM
+        </p>
+
+        <p class="tagline">
+            Prepare Today. Serve Tomorrow.
+        </p>
+
+
+<p style="color:#91aab5;font-size:13px;line-height:1.7;margin-bottom:15px;">
+Gunjabari, Coochbehar<br>
+736101
+</p>
+        <div class="copyright">
+            © 2026 Dyuti Institute. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
