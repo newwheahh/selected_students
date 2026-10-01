@@ -514,7 +514,7 @@ const students = [
         rank: "GMR 3587",
         course: "GNM Nursing",
         institute: "RG KAR MCH",
-        image: "https://mp3tourl.com/images/1790811708303-27b9a862-3064-4cc6-a855-83795f9725fd.jpg"
+        image: "https://mp3tourl.com/images/1790839320447-37261257-c27a-4408-b32d-6d8d894bea10.jpg"
     },
 	{
         name: "MITALI PARVIN",
